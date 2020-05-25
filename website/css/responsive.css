@@ -1,0 +1,159 @@
+@media screen and (max-width: 320px) {
+    section.header-slide {
+        height: 20em!important;
+    }
+    .face img {
+        width: auto!important;
+        height: 243px!important;
+    }
+    .description {
+        padding: 0 0 4em 2em!important;
+    }
+    section.service {
+        margin-top: 5em!important;
+    }
+}
+
+@media screen and (max-width: 527px) {
+    .cookiealert {
+        height: auto!important;
+    }
+    .container-sm {
+        width: 100%;
+        margin: 41px 0 38px 0;
+    }
+    .slider {
+        width: 100%;
+        height: 223px;
+    }
+    .title {
+        color: white;
+        line-height: 1;
+        font-size: 26px;
+    }
+    .b-col-3 {
+        float: left;
+        width: 100%!important;
+        padding: 10px;
+        margin: 4px;
+    }
+    form {
+        width: auto;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: left;
+    }
+    .banner {
+        height: 186px;
+    }
+    .b-col-2 {
+        float: left;
+        width: 100%;
+        padding: 10px;
+        margin: 4px;
+    }
+    .img-contact {
+        height: 283px;
+    }
+    .placeholder {
+        max-width: 100%;
+        padding: 0px;
+        margin-bottom: 50px;
+        margin: 0;
+    }
+    .container {
+        padding: 0 6px 0 0;
+    }
+    .placeholders {
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 0 20px;
+    }
+    span.placeholder img {
+        width: 100%;
+        height: auto;
+    }
+    span.placeholder p {
+        padding: 0 35px 64px 35px;
+    }
+    h1 {
+        font-size: 3em;
+        letter-spacing: 2px;
+    }
+    p {
+        font-size: 19px;
+    }
+    nav {
+        padding: 16px 38px 0 25px;
+    }
+    .responsive-nav li a {
+        margin: 19px 0 31px 0;
+    }
+    .responsive-nav-active {
+        top: 56px !important;
+    }
+    .responsive-nav {
+        top: -24em;
+    }
+    span.placeholder {
+        margin-bottom: 24px;
+    }
+    .parallax {
+        height: 400px;
+        padding: 0 40px 0 40px;
+    }
+    a.btn-appointment {
+        font-size: 18px;
+        border-radius: 50px;
+    }
+    .b-col-3 {
+        float: left;
+        width: 100%;
+        padding: 10px;
+        margin: 4px;
+    }
+    .b-row {
+        display: grid;
+        flex-direction: row;
+    }
+    .description {
+        padding: 0 0 6em 6em;
+    }
+    .Copyright p {
+        font-size: 11px;
+    }
+    .link a {
+        font-size: 18px;
+    }
+    .logo img {
+        height: 70px;
+    }
+}
+
+@media (min-width: 1024px) {
+    nav button,
+    .responsive-nav {
+        display: none;
+    }
+    nav ul {
+        display: block;
+    }
+}
+
+@media (max-width: 1024px) {
+    .b-col-3 {
+        float: left;
+        width: 33%;
+        padding: 10px;
+        margin: 4px;
+    }
+    .container-sm {
+        width: auto;
+    }
+}
+
+@media (max-width: 1440px) {
+    .cookiealert {
+        height: 200px;
+    }
+}

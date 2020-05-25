@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PetCare</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+</head>
+
+<body>
+    <!-- partial:index.partial.html -->
+    <nav>
+        <h1>PetCare</h1>
+        <button id="navbar-button">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+        <ul class="large-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <ul class="responsive-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <section class="banner text-center">
+        <div class="banner-title">
+            <h1>Contact</h1>
+        </div>
+        <div class="breadcrumb">
+            <span><a href="index.html">Home</a> / Contact</span>
+        </div>
+    </section>
+
+
+
+    <section class="content">
+        <div class="container text-center">
+            <div class="sepace-l"></div>
+            <h1>Get in Touch</h1>
+            <p>Contact us to book an appointment</p>
+            <div class="sepace-l"></div>
+
+            <div class="b-row">
+                <div class="b-col-2">
+                    <div class="img-contact"></div>
+                </div>
+                <div class="b-col-2">
+                    <div class="container">
+                        <form name="sendMsg" action="" onsubmit="return verify()">
+                            <label for="fName">Full Name</label>
+                            <input type="text" name="fname" value="" id="name" placeholder="Ashley bolk" required /><br>
+                            <label for="email">Email</label>
+                            <input type="text" name="email" id="email" value="" placeholder="abc@abc.com" required /><br>
+                            <label for="message" id="message">Message</label>
+                            <textarea name="message" id="message" cols="30" rows="10" placeholder="type your message here"></textarea><br>
+                            <div>
+                                <input type="checkbox" id="scales" name="scales" checked>
+                                <label for="scales">Yes, I'd like to recieve news, tips & tricks on marketing from petcare</label>
+                            </div><br>
+                            <input type="submit" name="send" id="send" value="Send" class="button" onClick="verify()" />
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <div class="sepace-l"></div>
+    <div class="sepace-l"></div>
+    <div class="sepace-l"></div>
+    <section class="Footer">
+        <div class="logo text-center">
+            <h2>PetCare</h2>
+        </div>
+        <div class="link text-center">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </div>
+        <hr>
+        <div class="Copyright text-center">
+            <p>© Copyright 2020 All Rights Reserved</p>
+        </div>
+    </section>
+    <!-- partial -->
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
